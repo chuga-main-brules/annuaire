@@ -458,5 +458,975 @@
     "adresse": "290 rue du 8 Mai 1945, Vizille",
     "notes": "Email : barbaraponot@gmail.com",
     "liens": []
+  },
+  {
+    "id": "p_1786551922768n1gal",
+    "nom": "Lemay Charlotte",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Meximieux",
+    "telephone": "04 74 36 86 14",
+    "adresse": "74 rue de Lyon, 01800 Meximieux",
+    "notes": "Email : cha.lemay@hotmail.fr",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768ittga",
+    "nom": "KAVIAN DAVUT – Centre Kinesyo",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste, Gemmsor",
+    "territoire": "Oyonnax",
+    "telephone": "04 82 83 70 60",
+    "adresse": "Bât. Scaphoïde, 40 cours de Verdun, Oyonnax",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768lehqp",
+    "nom": "Lemay Charlotte",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Saint-Maurice-en-Beynost",
+    "telephone": "04 78 55 09 88",
+    "adresse": "8 rue Honoré de Balzac, Saint-Maurice-en-Beynost",
+    "notes": "Email : cha.lemay@hotmail.fr",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768gq6qq",
+    "nom": "Battistini Laetitia",
+    "specialite": "Ergothérapeute – Gemmsor",
+    "territoire": "Saint-Maurice-de-Gourdans",
+    "telephone": "06 03 31 75 96",
+    "adresse": "27 chemin du Cerisier, Hameau de Pollet, 01800 Saint-Maurice-de-Gourdans",
+    "notes": "Email : laetitia.battistini@free.fr",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768jx16e",
+    "nom": "Bourne Emmanuel",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste",
+    "territoire": "Guilherand-Granges",
+    "telephone": "04 75 75 90 34",
+    "adresse": "Centre Claude Bernard, 226 boulevard du Général de Gaulle, 07500 Guilherand-Granges",
+    "notes": "Fait uniquement de l'appareillage",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768n08ns",
+    "nom": "Leclercq Jambon Barbara",
+    "specialite": "Kinésithérapeute – Orthésiste, Gemmsor",
+    "territoire": "Privas",
+    "telephone": "04 75 64 32 76",
+    "adresse": "11 cours Saint-Louis, 07000 Privas",
+    "notes": "Email : bbleclercq@hotmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768wsgn9",
+    "nom": "Malizard Jeanne",
+    "specialite": "Kinésithérapeute",
+    "territoire": "La Chapelle-sous-Aubenas",
+    "telephone": "07 69 95 22 31",
+    "adresse": "375 chemin des Traverses, 07200 La Chapelle-sous-Aubenas",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768pyazd",
+    "nom": "Centre des Carmes",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Digne-les-Bains",
+    "telephone": "04 92 30 34 00",
+    "adresse": "689 avenue Marius Autric, 04510 Aiglun",
+    "notes": "Kinésithérapeute et ergothérapeute, petit appareillage - Email : direction@centredescarmes.com",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768ju5a4",
+    "nom": "Delmares Eric",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste, Gemmsor",
+    "territoire": "Marseille (13)",
+    "telephone": "04 91 66 73 88",
+    "adresse": "31 boulevard Neuf, 13013 Marseille",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_178655192276888kmp",
+    "nom": "Aziza Jimmy",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste, Gemmsor",
+    "territoire": "Marseille (13)",
+    "telephone": "04 91 74 05 45",
+    "adresse": "7 rue d'Iéna, 13006 Marseille",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768i8x3e",
+    "nom": "Fourmy Fabre Philippe Maxime",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste, Gemmsor",
+    "territoire": "Marseille (13)",
+    "telephone": "04 91 71 66 99",
+    "adresse": "18 rue Negresko, 13008 Marseille",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768a3yvw",
+    "nom": "Ravier Pascal",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Marseille (13)",
+    "telephone": "06 66 14 79 06",
+    "adresse": "7 rue d'Arcole, 13006 Marseille",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768xxbv3",
+    "nom": "Clinique Aixum – Ravera Benjamin, Thibon Fabrice, Dauffer",
+    "specialite": "Kinésithérapeute – Orthésiste, Gemmsor",
+    "territoire": "Aix-en-Provence (13)",
+    "telephone": "04 42 96 24 82",
+    "adresse": "44 rue de Lattre de Tassigny, Aix-en-Provence",
+    "notes": "Email : benjaminravera@yahoo.fr",
+    "liens": []
+  },
+  {
+    "id": "p_17865519227684ksm7",
+    "nom": "Peugeot Sophie – Centre de rééducation",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste",
+    "territoire": "Salins-les-Bains (39)",
+    "telephone": "03 84 73 66 66",
+    "adresse": "Salins-les-Bains",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768ze2gd",
+    "nom": "Prunet Julie",
+    "specialite": "Kinésithérapeute – DIU main, Gemmsor",
+    "territoire": "Saint-Laurent-en-Grandvaux (39)",
+    "telephone": "03 84 60 12 19",
+    "adresse": "4 rue Balbalo, 39150 Saint-Laurent-en-Grandvaux",
+    "notes": "Site : kinestlaurent.com",
+    "liens": []
+  },
+  {
+    "id": "p_17865519227687a3u7",
+    "nom": "Ergo Dida Marie, Roy Olivier, Paul Philippe – Urgence Main Auvergne",
+    "specialite": "Kinésithérapeute – Orthésiste, Gemmsor",
+    "territoire": "Beaumont (63)",
+    "telephone": "04 73 40 80 52",
+    "adresse": "Clinique de la Châtaigneraie, 63110 Beaumont",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768myyr6",
+    "nom": "Chevolo",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Moulins (03)",
+    "telephone": "",
+    "adresse": "",
+    "notes": "Contact incomplet dans la source",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768tydj3",
+    "nom": "Le Flohic",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Le Puy-en-Velay (43)",
+    "telephone": "",
+    "adresse": "",
+    "notes": "Contact incomplet dans la source",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768asjbr",
+    "nom": "Bertrand Maurine",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Montluçon (03)",
+    "telephone": "",
+    "adresse": "",
+    "notes": "Contact incomplet dans la source",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768origs",
+    "nom": "Agnel Françoise",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Vichy (03)",
+    "telephone": "",
+    "adresse": "",
+    "notes": "Contact incomplet dans la source",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768fu85w",
+    "nom": "Mesplié G. – L'Espace Main",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste",
+    "territoire": "Biarritz (64)",
+    "telephone": "05 59 22 47 44",
+    "adresse": "21 rue de l'Estagnas, 64200 Biarritz",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_17865519227680jjjx",
+    "nom": "Emile Geoffrey – Centre médical Elgarrekin",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste",
+    "territoire": "Hasparren (64)",
+    "telephone": "05 59 29 12 81 / 06 99 54 09 47",
+    "adresse": "13 rue de l'Ursuya, 64240 Hasparren",
+    "notes": "Email : geoffrey_emile@hotmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768ml0ra",
+    "nom": "Cheminon Mathilde",
+    "specialite": "Kinésithérapeute – DIU main",
+    "territoire": "Paris (75)",
+    "telephone": "06 34 11 35 77",
+    "adresse": "21 boulevard de Strasbourg, 75010 Paris",
+    "notes": "Cabinet kiné + médecin généraliste - Email : mathilde.cheminon@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768c2oqi",
+    "nom": "Ducret Carn Fanny, Akrich Marie",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste",
+    "territoire": "Paris (75)",
+    "telephone": "09 81 48 35 38",
+    "adresse": "32 rue des Bergers, 75015 Paris",
+    "notes": "Email : fanny.carn@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768enyoi",
+    "nom": "Marsault Flora",
+    "specialite": "Kinésithérapeute – DIU main, Gemmsor",
+    "territoire": "Isneauville (76)",
+    "telephone": "09 65 14 74 85 / 06 30 14 59 70",
+    "adresse": "rue du Mont Perreux, 76230 Isneauville",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768hhrr3",
+    "nom": "Centre de la Main",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste, Gemmsor",
+    "territoire": "Toulon (83)",
+    "telephone": "04 98 00 11 32",
+    "adresse": "525 avenue François Cuzin, place Mermoz, 83100 Toulon",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_17865519227683mr32",
+    "nom": "Burnichon Christine",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste",
+    "territoire": "Six-Fours-les-Plages (83)",
+    "telephone": "04 94 25 57 19",
+    "adresse": "Résidence Impérial bât. D, 56 place des Poilus, 83140 Six-Fours-les-Plages",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768achqf",
+    "nom": "Pezet Sylvain",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Genève (Suisse)",
+    "telephone": "",
+    "adresse": "Chemin du Jura, CH-1261",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768gqt99",
+    "nom": "Serex Anne-Marie",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Versoix (Suisse)",
+    "telephone": "",
+    "adresse": "Rue Saint-Loup, CH-1290 Versoix",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768fkpn6",
+    "nom": "ASPMAD Nord Vaudois – Fiona Gigon",
+    "specialite": "Ergothérapeute – DIU main",
+    "territoire": "Yverdon-les-Bains (Suisse)",
+    "telephone": "+41 58 450 30 30",
+    "adresse": "32 rue des Moulins, 1400 Yverdon-les-Bains",
+    "notes": "Service d'ergothérapie en pathologies de la main et du membre supérieur - Email : fiona.gigon@avasad.ch",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768htxxb",
+    "nom": "Hôpitaux universitaires de Genève (HUG)",
+    "specialite": "Kinésithérapeute – DIU main",
+    "territoire": "Genève (Suisse)",
+    "telephone": "",
+    "adresse": "",
+    "notes": "Deux professionnels titulaires du DIU (contact via l'hôpital)",
+    "liens": []
+  },
+  {
+    "id": "p_17865519227685zbcu",
+    "nom": "Siri Antonella",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Savone (Italie)",
+    "telephone": "",
+    "adresse": "Via Rocca 27/6, 17100 Savona",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768i76oy",
+    "nom": "Broda Giorgio",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Albenga (Italie)",
+    "telephone": "",
+    "adresse": "Via Piave 92/4, 17031 Albenga",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768rex5r",
+    "nom": "Salah Chebbi",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Sfax (Tunisie)",
+    "telephone": "98 55 00 90",
+    "adresse": "",
+    "notes": "Kinésithérapeute du sport, équipe nationale tunisienne de handball",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768gtijn",
+    "nom": "Valla Ingrid",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Châteauneuf-sur-Isère",
+    "telephone": "04 75 71 85 62",
+    "adresse": "Le Mivallon, 2 rue Cure, 26300 Châteauneuf-sur-Isère",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768ye3na",
+    "nom": "Roudil Serge",
+    "specialite": "Kinésithérapeute – Orthésiste, Gemmsor",
+    "territoire": "Livron-sur-Drôme",
+    "telephone": "04 75 61 76 16",
+    "adresse": "4 rue du Parc, 26250 Livron-sur-Drôme",
+    "notes": "Kinésithérapeute-Orthésiste",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768jc4tz",
+    "nom": "Rodamel Robin",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Montélier",
+    "telephone": "04 75 59 22 91",
+    "adresse": "Maison médicale Le Pimpie, 26120 Montélier",
+    "notes": "Email : rodamelrobinmkde@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768poij3",
+    "nom": "SOS Main – Didier Christophe",
+    "specialite": "Kinésithérapeute – Orthésiste, Gemmsor",
+    "territoire": "Montélimar",
+    "telephone": "04 75 01 92 87 / 06 10 12 92 26",
+    "adresse": "avenue John Kennedy, Montélimar",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_178655192276856zlg",
+    "nom": "Jarricot Romain",
+    "specialite": "Kinésithérapeute – Gemmsor",
+    "territoire": "Montélimar",
+    "telephone": "04 75 01 50 64",
+    "adresse": "33 rue Louis Charpenne, Montélimar",
+    "notes": "Email : romain.jarricot@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768xe7pp",
+    "nom": "Cremillieux Julia, Roy Noëlle",
+    "specialite": "Kinésithérapeute – DIU main, Gemmsor",
+    "territoire": "Valence",
+    "telephone": "06 06 49 25 37 / 04 75 43 34 70",
+    "adresse": "2 rue de Mulhouse, 26000 Valence",
+    "notes": "Email : julia.cremillieux@free.fr",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768vr6lv",
+    "nom": "ADAPT CMPR Les Baumes",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste",
+    "territoire": "Valence",
+    "telephone": "04 75 81 64 64",
+    "adresse": "43 avenue de la Libération, BP 336, 26003 Valence Cedex",
+    "notes": "Kiné, ergo, réalisation d'orthèses et retouches - Email : valence@ladapt.net",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768z1cw7",
+    "nom": "Gerard Thomas",
+    "specialite": "Kinésithérapeute – DIU main, Gemmsor",
+    "territoire": "Saint-Marcel-lès-Valence",
+    "telephone": "04 75 83 72 66",
+    "adresse": "2 allée Germinal, 26320 Saint-Marcel-lès-Valence",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768u7ncp",
+    "nom": "Rhône Azur – Centre de rééducation",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Briançon",
+    "telephone": "04 92 25 40 63",
+    "adresse": "Briançon",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768wured",
+    "nom": "Roche Meane, Fontaine G.",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Briançon",
+    "telephone": "04 92 20 20 53",
+    "adresse": "1 avenue du Lautaret, Briançon",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768tis8t",
+    "nom": "Boutiller Eric, Olivier Emilie",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Briançon",
+    "telephone": "04 92 20 48 45",
+    "adresse": "31 avenue du Lautaret, Briançon",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768dr3rt",
+    "nom": "Cabinet Izoard",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Briançon",
+    "telephone": "",
+    "adresse": "1 rue Centrale, Briançon",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768ofcwp",
+    "nom": "Pharmacie de la Louisiane",
+    "specialite": "Orthésiste",
+    "territoire": "Briançon",
+    "telephone": "",
+    "adresse": "",
+    "notes": "Orthésiste",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768wl7dd",
+    "nom": "Richard Alexandre",
+    "specialite": "Orthésiste",
+    "territoire": "Briançon",
+    "telephone": "04 92 21 10 21",
+    "adresse": "",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768ctrwm",
+    "nom": "Devidal Aurélie",
+    "specialite": "Kinésithérapeute – DIU main",
+    "territoire": "Saint-Bonnet-en-Champsaur",
+    "telephone": "04 92 24 84 68 / 07 89 56 75 11",
+    "adresse": "",
+    "notes": "Email : devidal.aurelie@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768wjaz1",
+    "nom": "Dol Jean-Louis",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Gap",
+    "telephone": "",
+    "adresse": "La Haute Tourronde, 2A chemin Baroncelli, 05000 Gap",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768amp7w",
+    "nom": "Mongin Fanny",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Gap",
+    "telephone": "04 92 56 07 13",
+    "adresse": "8 cours Victor Hugo, 05000 Gap",
+    "notes": "Cellu M6 pour cicatrices adhérentes",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768vzstw",
+    "nom": "Weishaar Joëlle",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Gap",
+    "telephone": "04 92 51 10 86",
+    "adresse": "4 rue Roger Sabatier, 05000 Gap",
+    "notes": "N'est pas orthésiste mais peut gérer l'évolution",
+    "liens": []
+  },
+  {
+    "id": "p_17865519227684e17p",
+    "nom": "Joly Erika",
+    "specialite": "Kinésithérapeute",
+    "territoire": "La Salle-les-Alpes",
+    "telephone": "06 07 45 43 81",
+    "adresse": "5 rue des Orchidées, La Salle-les-Alpes",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768qrx2l",
+    "nom": "Groupe médical de la Tour – Claudine Richerd-Reynaud",
+    "specialite": "Kinésithérapeute",
+    "territoire": "La Bâtie-Neuve",
+    "telephone": "04 92 50 37 23",
+    "adresse": "15 rue de la Luye, 05230 La Bâtie-Neuve",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_178655192276855suz",
+    "nom": "Vincent Brigitte, Lehnert Stéphanie",
+    "specialite": "Kinésithérapeute – DIU main, Gemmsor",
+    "territoire": "Annecy",
+    "telephone": "04 50 45 13 78",
+    "adresse": "1 bis avenue d'Aléry, 74000 Annecy",
+    "notes": "Rééducation sensitive Spicher - Email : brigitte-vincent2@wanadoo.fr",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768dzm7u",
+    "nom": "Picard Julie",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Saint-Paul-en-Chablais",
+    "telephone": "04 80 00 41 77",
+    "adresse": "30 rue Ciriel, 74500 Saint-Paul-en-Chablais",
+    "notes": "Email : julie.pilates.enjoy@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922768axr92",
+    "nom": "Masay Lucie, Mostras Provence",
+    "specialite": "Kinésithérapeute – DIU main, Gemmsor",
+    "territoire": "Seynod",
+    "telephone": "04 56 49 23 13",
+    "adresse": "7 rue Blaise Pascal, Seynod",
+    "notes": "Email : kinemainseynod@yahoo.com",
+    "liens": []
+  },
+  {
+    "id": "p_17865519227689mru2",
+    "nom": "Deruy Cyrielle",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Valleiry",
+    "telephone": "06 50 04 34 51",
+    "adresse": "",
+    "notes": "Email : cyrielle.deruy.kine@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769e6r3j",
+    "nom": "Apeix Frédéric – Centre Krome",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste, Gemmsor",
+    "territoire": "Anse",
+    "telephone": "04 37 55 54 85",
+    "adresse": "222 rue de Jonchay, 69480 Anse",
+    "notes": "Email : frederic.apaix@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_178655192276973ivw",
+    "nom": "Queney-Rou Anne-Pascale",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Anse",
+    "telephone": "04 72 12 95 04",
+    "adresse": "",
+    "notes": "MPR enfants - Email : annepascale.r@free.fr",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769kfxlv",
+    "nom": "Warambourg Charlotte",
+    "specialite": "Kinésithérapeute – DIU main",
+    "territoire": "Caluire-et-Cuire",
+    "telephone": "06 17 88 03 86 / 04 78 29 59 19",
+    "adresse": "Centre Paramédical de Cuire le Haut, 50 rue Pierre Brunier, Caluire-et-Cuire",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769d18rx",
+    "nom": "Bernard Arnaud",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste, Gemmsor",
+    "territoire": "Grigny",
+    "telephone": "04 78 73 33 16",
+    "adresse": "96 rue Pierre Semard, Grigny",
+    "notes": "Email : arnaud.bernard.mk@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769jtmud",
+    "nom": "Blanchon Benoit",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste",
+    "territoire": "Lentilly",
+    "telephone": "06 06 68 84 44",
+    "adresse": "",
+    "notes": "Email : bblanchonjob@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769ayxj1",
+    "nom": "SCM Équipe Mains",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Lyon",
+    "telephone": "04 78 62 91 01",
+    "adresse": "246 rue de Créqui, Lyon",
+    "notes": "Email : reeducation.main@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_17865519227690hsed",
+    "nom": "Combel Sabrine",
+    "specialite": "Kinésithérapeute – DIU main, Gemmsor",
+    "territoire": "Lyon",
+    "telephone": "",
+    "adresse": "SCM Équipe Mains, 246 rue de Créqui, Lyon",
+    "notes": "Kinésithérapeute et ergothérapeute",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769xjam3",
+    "nom": "Kuenemann Mylène",
+    "specialite": "Kinésithérapeute – DIU main, Gemmsor",
+    "territoire": "Lyon",
+    "telephone": "",
+    "adresse": "SCM Équipe Mains, 246 rue de Créqui, Lyon",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769b6j32",
+    "nom": "Lariviere Édouard",
+    "specialite": "Kinésithérapeute – DIU main",
+    "territoire": "Lyon",
+    "telephone": "",
+    "adresse": "SCM Équipe Mains, 246 rue de Créqui, Lyon",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_178655192276967y1y",
+    "nom": "Lafumas Elodie, Levallois Caroline",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Lyon",
+    "telephone": "",
+    "adresse": "SCM Équipe Mains, 246 rue de Créqui, Lyon",
+    "notes": "Kinésithérapeute et ergothérapeute",
+    "liens": []
+  },
+  {
+    "id": "p_17865519227697dmxx",
+    "nom": "Foucault Christophe",
+    "specialite": "Kinésithérapeute – Gemmsor",
+    "territoire": "Lyon",
+    "telephone": "04 78 60 82 48 / 06 03 28 67 45",
+    "adresse": "119 cours Gambetta, Lyon",
+    "notes": "Email : christauphefoucault@free.fr",
+    "liens": []
+  },
+  {
+    "id": "p_178655192276950dpb",
+    "nom": "Galewicz Thomas, Songeur Catherine",
+    "specialite": "Kinésithérapeute – Gemmsor",
+    "territoire": "Lyon",
+    "telephone": "04 72 44 88 80",
+    "adresse": "155 boulevard de Stalingrad, 69006 Lyon",
+    "notes": "Email : th.galewicz@wanadoo.fr",
+    "liens": []
+  },
+  {
+    "id": "p_17865519227696igbv",
+    "nom": "Mahuas Catherine",
+    "specialite": "Kinésithérapeute – Gemmsor",
+    "territoire": "Lyon",
+    "telephone": "04 78 95 04 26",
+    "adresse": "148 rue de Créqui, Lyon",
+    "notes": "Email : catherinemahuas@hotmail.fr",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769f2sup",
+    "nom": "Mourier Yannick",
+    "specialite": "Kinésithérapeute – DIU main",
+    "territoire": "Lyon",
+    "telephone": "06 11 31 95 03",
+    "adresse": "84 rue Chevreul, 69007 Lyon",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_178655192276973go4",
+    "nom": "Basset Varinard Nicole",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste, Gemmsor",
+    "territoire": "Lyon",
+    "telephone": "04 78 01 43 16 / 06 12 24 18 56",
+    "adresse": "16 avenue Rockefeller, Lyon",
+    "notes": "Ergothérapeute - Email : basset.nicole@yahoo.fr",
+    "liens": []
+  },
+  {
+    "id": "p_17865519227697qr0h",
+    "nom": "Cabinet Kinésis",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Lyon",
+    "telephone": "09 82 41 60 55",
+    "adresse": "16 rue Transvaal, Lyon 8e",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769iihm4",
+    "nom": "Parmentier Hélène",
+    "specialite": "Kinésithérapeute – Gemmsor",
+    "territoire": "Saint-Genis-Laval",
+    "telephone": "",
+    "adresse": "59 rue des Collonges, Saint-Genis-Laval",
+    "notes": "Email : helene.parmentier@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_17865519227692dhpj",
+    "nom": "De Magalhães Antonio – Centre Magellan",
+    "specialite": "Kinésithérapeute – Orthésiste, Gemmsor",
+    "territoire": "Saint-Romain-en-Gal",
+    "telephone": "06 64 35 12 49 / 04 74 53 08 01",
+    "adresse": "81 impasse du Rond-Point, Saint-Romain-en-Gal",
+    "notes": "Email : centre.magellan@orange.fr",
+    "liens": []
+  },
+  {
+    "id": "p_17865519227692u5uz",
+    "nom": "Tessadit Aissaoui",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Vénissieux",
+    "telephone": "04 72 89 58 50",
+    "adresse": "2 rue Roger Planchon, Vénissieux",
+    "notes": "Email : tessadit.aissaoui@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769ebdnx",
+    "nom": "Galewicz Thomas, Songeur Catherine",
+    "specialite": "Kinésithérapeute – Orthésiste, Gemmsor",
+    "territoire": "Villeurbanne",
+    "telephone": "04 78 44 88 80",
+    "adresse": "155 rue de Stalingrad, Villeurbanne",
+    "notes": "Email : t.galewicz@cliniqueduparclyon.com",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769di76z",
+    "nom": "Jacquemard Marie, Bertholon Justine",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Villeurbanne",
+    "telephone": "04 72 91 46 87",
+    "adresse": "49 rue Léon Blum, Villeurbanne",
+    "notes": "Bertholon Justine, ergothérapeute - Email : kinesgrandclement@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769urme8",
+    "nom": "Baudet",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Barberaz",
+    "telephone": "",
+    "adresse": "12 avenue du Stade, 73000 Barberaz",
+    "notes": "Contact incomplet dans la source",
+    "liens": []
+  },
+  {
+    "id": "p_17865519227691uzbr",
+    "nom": "Tardif François",
+    "specialite": "Kinésithérapeute – DIU main, Gemmsor",
+    "territoire": "Barberaz",
+    "telephone": "04 79 25 57 87",
+    "adresse": "25 rue de Buisson Rond, Le Sévigné C, Barberaz",
+    "notes": "Email : ftardif@hotmail.fr",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769725eq",
+    "nom": "Coulondre Claire",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Bassens",
+    "telephone": "04 79 69 69 69",
+    "adresse": "Immeuble L'Amiral, 2 bis rue Simone Veil, 73000 Bassens",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769eu9js",
+    "nom": "Le Bergentrum III",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Bourg-Saint-Maurice",
+    "telephone": "04 79 04 14 22",
+    "adresse": "319 route de Montrigon, 73700 Bourg-Saint-Maurice",
+    "notes": "Email : kinevalerie@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_17865519227691bqi0",
+    "nom": "Colin Guillaume",
+    "specialite": "Kinésithérapeute – DIU main, Gemmsor",
+    "territoire": "Chambéry",
+    "telephone": "06 15 09 69 93",
+    "adresse": "331 avenue de Turin, 73000 Chambéry",
+    "notes": "Email : guillaumecolin@yahoo.fr",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769g2sci",
+    "nom": "Pizard",
+    "specialite": "Kinésithérapeute – Gemmsor",
+    "territoire": "Chambéry",
+    "telephone": "04 79 85 45 92",
+    "adresse": "2 avenue Général de Gaulle, Chambéry",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769mbwvk",
+    "nom": "Avrier Romain",
+    "specialite": "Kinésithérapeute – Orthésiste, Gemmsor",
+    "territoire": "Challes-les-Eaux",
+    "telephone": "06 11 13 48 51",
+    "adresse": "36 avenue Béatrice de Savoie, bâtiment A, Challes-les-Eaux",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_17865519227692el82",
+    "nom": "Médipôle de Savoie – hôpital de jour SMR",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Challes-les-Eaux",
+    "telephone": "04 79 26 82 04",
+    "adresse": "300 avenue des Massettes, 73190 Challes-les-Eaux",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769ajg57",
+    "nom": "Fayolle Damien",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Cognin",
+    "telephone": "04 79 69 11 46",
+    "adresse": "17 rue de l'Épine, Cognin",
+    "notes": "Email : philippelaffitte@free.fr",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769swhih",
+    "nom": "Clamet Hugo",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Gilly-sur-Isère",
+    "telephone": "04 79 32 09 73",
+    "adresse": "386 route de la Pommeraie, 73200 Gilly-sur-Isère",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769br2pf",
+    "nom": "Rousseau",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Jacob-Bellecombette",
+    "telephone": "04 79 96 09 08",
+    "adresse": "23 rue E. Grangeat, 73000 Jacob-Bellecombette",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769dov90",
+    "nom": "Maison médicale Le Pont",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Lescheraines",
+    "telephone": "04 79 63 30 28",
+    "adresse": "73340 Lescheraines",
+    "notes": "Email : maison.medicale.lescheraines@wanadoo.fr",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769zfqu1",
+    "nom": "Sadler Darmendrail Anne",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Modane",
+    "telephone": "04 79 05 04 32",
+    "adresse": "5 rue de la République, Modane",
+    "notes": "Avec Philippe Couvert",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769rn1t0",
+    "nom": "Chanois Emmanuelle, Lemaitre Nicolas",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Modane",
+    "telephone": "04 79 05 47 71",
+    "adresse": "",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769ini9l",
+    "nom": "Cabinet paramédical",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Saint-Jean-de-Maurienne",
+    "telephone": "04 79 64 08 35",
+    "adresse": "64 rue de la Libération, 73300 Saint-Jean-de-Maurienne",
+    "notes": "Email : cabinetparamedical73@orange.fr",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769bhbvr",
+    "nom": "Maison de santé René Samouiller",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Saint-Michel-de-Maurienne",
+    "telephone": "04 79 56 51 44",
+    "adresse": "39 avenue de la République, Saint-Michel-de-Maurienne",
+    "notes": "Email : dekhmo@hotmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769b9ygr",
+    "nom": "Lambert",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Tignes",
+    "telephone": "04 79 06 48 95",
+    "adresse": "Immeuble Combe Folle, le Lac, 73320 Tignes",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_1786551922769uabfe",
+    "nom": "Malfait Remy",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Ugine",
+    "telephone": "06 60 70 59 93",
+    "adresse": "Maison de santé Les Coteaux du Boubioz, 2 rue du Docteur Chavent, Ugine",
+    "notes": "",
+    "liens": []
   }
 ]
