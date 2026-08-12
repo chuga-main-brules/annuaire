@@ -503,12 +503,12 @@
 <div class="overlay" id="overlay-admin-code">
   <div class="modal">
     <h2 id="admin-code-title">Accès équipe</h2>
-    <p class="modal-sub" id="admin-code-sub">Saisissez le code d'accès partagé par votre équipe pour activer le mode édition.</p>
+    <p class="modal-sub" id="admin-code-sub">Collez votre jeton d'accès GitHub (Personal Access Token) pour activer le mode édition. Ce jeton reste uniquement sur votre appareil.</p>
     <div class="field">
-      <label for="admin-code-input">Code d'accès</label>
-      <input type="password" id="admin-code-input" autocomplete="off">
+      <label for="admin-code-input">Jeton d'accès GitHub</label>
+      <input type="password" id="admin-code-input" autocomplete="off" placeholder="ghp_…">
     </div>
-    <p class="helper-text" id="admin-code-error" style="color:var(--danger); display:none;">Code incorrect. Réessayez.</p>
+    <p class="helper-text" id="admin-code-error" style="color:var(--danger); display:none;">Jeton invalide. Réessayez.</p>
     <div class="modal-actions">
       <button class="btn-text" id="admin-code-cancel" type="button">Annuler</button>
       <button class="btn-primary" id="admin-code-submit" type="button">Valider</button>
@@ -519,15 +519,14 @@
 <div class="overlay" id="overlay-share">
   <div class="modal">
     <h2>Partager l'annuaire</h2>
-    <p class="modal-sub">Collez ici le lien final de la page une fois publiée. Le code QR est généré uniquement à partir de ce lien — jamais de votre lien personnel.</p>
+    <p class="modal-sub">Ce QR code pointe vers l'adresse réelle de cette page.</p>
     <div class="qr-box">
       <div id="qr-panel" style="display:none;"></div>
       <p class="helper-text" id="qr-empty-msg" style="margin:0;">Aucun lien défini pour l'instant.</p>
       <div class="link-copy">
-        <input type="text" id="share-url" placeholder="https://…">
+        <input type="text" id="share-url" placeholder="https://…" readonly>
         <button class="btn-ghost" id="btn-copy-link" type="button">Copier</button>
       </div>
-      <button class="btn-primary" id="btn-save-url" type="button" style="display:none;">Enregistrer le lien</button>
     </div>
     <div class="modal-actions">
       <button class="btn-text" id="share-close" type="button">Fermer</button>
@@ -602,12 +601,19 @@
 
 <script>
 (function(){
-  const STORAGE_KEY = 'professionnels';
-  const CONFIG_KEY = 'config';
+  // Dépôt GitHub où est hébergée cette page — les données de l'annuaire
+  // sont lues/écrites dans un vrai fichier de ce dépôt, partagé par tous.
+  const GH_OWNER = 'chuga-main-brules';
+  const GH_REPO = 'annuaire';
+  const GH_BRANCH = 'main';
+  const DATA_PATH = 'data/professionnels.json';
+  const TOKEN_KEY = 'cma_annuaire_gh_token';
+
   let professionnels = [];
   let isAdmin = false;
   let currentLinks = [];
   let shareUrl = '';
+  let githubToken = '';
 
   const $ = (id) => document.getElementById(id);
   const mainEl = $('main-content');
@@ -617,7 +623,7 @@
     t.textContent = msg;
     t.classList.add('show');
     clearTimeout(t._timer);
-    t._timer = setTimeout(()=>t.classList.remove('show'), 2200);
+    t._timer = setTimeout(()=>t.classList.remove('show'), 2600);
   }
 
   function escapeHtml(str){
@@ -638,11 +644,23 @@
     return '<svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6"/></svg>';
   }
 
-  // ---------- Storage ----------
+  function b64EncodeUtf8(str){
+    return btoa(unescape(encodeURIComponent(str)));
+  }
+
+  function ghRawUrl(path){
+    return `https://raw.githubusercontent.com/${GH_OWNER}/${GH_REPO}/${GH_BRANCH}/${path}?t=${Date.now()}`;
+  }
+
+  function ghApiUrl(path){
+    return `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${path}`;
+  }
+
+  // ---------- Storage (données partagées, stockées dans le dépôt GitHub) ----------
   async function loadData(){
     try{
-      const res = await window.storage.get(STORAGE_KEY, true);
-      professionnels = res && res.value ? JSON.parse(res.value) : [];
+      const res = await fetch(ghRawUrl(DATA_PATH), {cache:'no-store'});
+      professionnels = res.ok ? await res.json() : [];
     }catch(e){
       professionnels = [];
     }
@@ -650,26 +668,50 @@
   }
 
   async function saveData(){
+    if(!githubToken){
+      toast("Reconnectez-vous en mode équipe pour enregistrer.");
+      return false;
+    }
     try{
-      await window.storage.set(STORAGE_KEY, JSON.stringify(professionnels), true);
+      let sha;
+      const getRes = await fetch(ghApiUrl(DATA_PATH), {
+        headers: { Authorization: 'token ' + githubToken }
+      });
+      if(getRes.ok){
+        const info = await getRes.json();
+        sha = info.sha;
+      }
+      const body = {
+        message: 'Mise à jour annuaire (' + new Date().toLocaleString('fr-FR') + ')',
+        content: b64EncodeUtf8(JSON.stringify(professionnels, null, 2)),
+        branch: GH_BRANCH
+      };
+      if(sha) body.sha = sha;
+      const putRes = await fetch(ghApiUrl(DATA_PATH), {
+        method: 'PUT',
+        headers: {
+          Authorization: 'token ' + githubToken,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(body)
+      });
+      if(!putRes.ok){
+        const err = await putRes.json().catch(()=>({}));
+        throw new Error(err.message || ('Erreur GitHub (' + putRes.status + ')'));
+      }
+      return true;
     }catch(e){
-      toast("Erreur d'enregistrement — réessayez.");
+      toast("Erreur d'enregistrement : " + e.message);
       console.error(e);
+      return false;
     }
   }
 
-  async function getConfig(){
-    try{
-      const res = await window.storage.get(CONFIG_KEY, true);
-      return res && res.value ? JSON.parse(res.value) : null;
-    }catch(e){ return null; }
+  async function verifyToken(token){
+    const res = await fetch('https://api.github.com/user', { headers: { Authorization: 'token ' + token } });
+    return res.ok;
   }
 
-  async function setConfig(cfg){
-    try{
-      await window.storage.set(CONFIG_KEY, JSON.stringify(cfg), true);
-    }catch(e){ console.error(e); }
-  }
 
   // ---------- Render ----------
   function getFilteredGrouped(){
@@ -768,6 +810,8 @@
   async function toggleAdmin(){
     if(isAdmin){
       isAdmin = false;
+      githubToken = '';
+      localStorage.removeItem(TOKEN_KEY);
       $('btn-admin').classList.remove('on');
       $('admin-label').textContent = 'Équipe';
       $('btn-add').style.display = 'none';
@@ -775,38 +819,45 @@
       render();
       return;
     }
-    const cfg = await getConfig();
     $('admin-code-error').style.display = 'none';
     $('admin-code-input').value = '';
-    if(!cfg || !cfg.code){
-      $('admin-code-title').textContent = 'Définir le code d\'équipe';
-      $('admin-code-sub').textContent = "Aucun code n'a encore été défini. Choisissez le code que votre équipe utilisera pour modifier l'annuaire.";
-    }else{
-      $('admin-code-title').textContent = 'Accès équipe';
-      $('admin-code-sub').textContent = "Saisissez le code d'accès partagé par votre équipe pour activer le mode édition.";
-    }
     $('overlay-admin-code').classList.add('show');
     $('admin-code-input').focus();
   }
 
   async function submitAdminCode(){
-    const cfg = await getConfig();
     const val = $('admin-code-input').value.trim();
     if(!val) return;
-    if(!cfg || !cfg.code){
-      await setConfig(Object.assign({}, cfg, {code: val}));
+    $('admin-code-submit').disabled = true;
+    $('admin-code-error').style.display = 'none';
+    try{
+      const ok = await verifyToken(val);
+      if(!ok) throw new Error();
+      githubToken = val;
+      localStorage.setItem(TOKEN_KEY, val);
       activateAdmin();
-      toast('Code défini. Mode édition activé.');
-      return;
-    }
-    if(val === cfg.code){
-      activateAdmin();
-    }else{
+    }catch(e){
       $('admin-code-error').style.display = 'block';
+    }finally{
+      $('admin-code-submit').disabled = false;
     }
   }
 
-  function activateAdmin(){
+  async function tryRestoreToken(){
+    const saved = localStorage.getItem(TOKEN_KEY);
+    if(!saved) return;
+    try{
+      const ok = await verifyToken(saved);
+      if(ok){
+        githubToken = saved;
+        activateAdmin(true);
+      }else{
+        localStorage.removeItem(TOKEN_KEY);
+      }
+    }catch(e){}
+  }
+
+  function activateAdmin(silent){
     isAdmin = true;
     $('btn-admin').classList.add('on');
     $('admin-label').textContent = 'Mode édition';
@@ -814,6 +865,7 @@
     $('btn-import').style.display = 'inline-flex';
     $('overlay-admin-code').classList.remove('show');
     render();
+    if(!silent) toast('Mode édition activé.');
   }
 
   // ---------- Edit modal ----------
@@ -874,13 +926,17 @@
       notes: $('f-notes').value.trim(),
       liens: currentLinks.filter(l=>l.url && l.url.trim()).map(l=>({label:l.label.trim()||'Lien', url: normalizeUrl(l.url)}))
     };
+    const backup = professionnels.slice();
     if(id){
       const idx = professionnels.findIndex(p=>p.id===id);
       if(idx>-1) professionnels[idx] = data;
     }else{
       professionnels.push(data);
     }
-    await saveData();
+    $('edit-save').disabled = true;
+    const ok = await saveData();
+    $('edit-save').disabled = false;
+    if(!ok){ professionnels = backup; return; }
     $('overlay-edit').classList.remove('show');
     render();
     toast('Enregistré.');
@@ -890,8 +946,10 @@
     const id = $('edit-id').value;
     if(!id) return;
     if(!confirm('Supprimer ce professionnel de l\'annuaire ?')) return;
+    const backup = professionnels.slice();
     professionnels = professionnels.filter(p=>p.id!==id);
-    await saveData();
+    const ok = await saveData();
+    if(!ok){ professionnels = backup; return; }
     $('overlay-edit').classList.remove('show');
     render();
     toast('Supprimé.');
@@ -902,6 +960,7 @@
     const raw = $('import-text').value;
     const lines = raw.split('\n').map(l=>l.trim()).filter(Boolean);
     if(lines.length===0){ toast('Aucune ligne à importer.'); return; }
+    const backup = professionnels.slice();
     let count = 0;
     lines.forEach(line=>{
       const parts = line.split(';').map(s=>s.trim());
@@ -914,7 +973,10 @@
       });
       count++;
     });
-    await saveData();
+    $('import-submit').disabled = true;
+    const ok = await saveData();
+    $('import-submit').disabled = false;
+    if(!ok){ professionnels = backup; return; }
     $('overlay-import').classList.remove('show');
     $('import-text').value = '';
     render();
@@ -922,9 +984,12 @@
   }
 
   // ---------- Share / QR ----------
-  async function loadShareConfig(){
-    const cfg = await getConfig();
-    shareUrl = (cfg && cfg.shareUrl) || '';
+  function detectShareUrl(){
+    if(/^https?:$/.test(location.protocol)){
+      shareUrl = location.origin + location.pathname;
+    }else{
+      shareUrl = '';
+    }
     renderQr();
   }
 
@@ -945,30 +1010,14 @@
     }
   }
 
-  async function saveShareUrl(){
-    const val = $('share-url').value.trim();
-    const newUrl = val ? normalizeUrl(val) : '';
-    const cfg = (await getConfig()) || {};
-    cfg.shareUrl = newUrl;
-    await setConfig(cfg);
-    shareUrl = newUrl;
-    renderQr();
-    toast('Lien mis à jour.');
-  }
-
   // ---------- Wire up events ----------
   $('btn-admin').addEventListener('click', toggleAdmin);
   $('admin-code-cancel').addEventListener('click', ()=>$('overlay-admin-code').classList.remove('show'));
   $('admin-code-submit').addEventListener('click', submitAdminCode);
   $('admin-code-input').addEventListener('keydown', e=>{ if(e.key==='Enter') submitAdminCode(); });
 
-  $('btn-share').addEventListener('click', ()=>{
-    $('share-url').readOnly = !isAdmin;
-    $('btn-save-url').style.display = isAdmin ? 'inline-flex' : 'none';
-    $('overlay-share').classList.add('show');
-  });
+  $('btn-share').addEventListener('click', ()=>$('overlay-share').classList.add('show'));
   $('share-close').addEventListener('click', ()=>$('overlay-share').classList.remove('show'));
-  $('btn-save-url').addEventListener('click', saveShareUrl);
   $('btn-copy-link').addEventListener('click', ()=>{
     $('share-url').select();
     navigator.clipboard.writeText($('share-url').value).then(()=>toast('Lien copié.')).catch(()=>{document.execCommand('copy'); toast('Lien copié.');});
@@ -995,7 +1044,8 @@
     if(e.key==='Escape'){ document.querySelectorAll('.overlay.show').forEach(ov=>ov.classList.remove('show')); }
   });
 
-  loadShareConfig();
+  detectShareUrl();
+  tryRestoreToken();
   loadData();
 })();
 </script>
