@@ -1,0 +1,462 @@
+[
+  {
+    "id": "p_seed_001",
+    "nom": "AKOM - CORVI Mickael, FRANÇOIS Manuel, ROCHE Johan",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste, Gemmsor",
+    "territoire": "Grenoble",
+    "telephone": "09 80 92 12 30",
+    "adresse": "57 rue de Mortillet, Grenoble",
+    "notes": "Email : alpeskinemain@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_seed_002",
+    "nom": "CAILLAT",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Grenoble",
+    "telephone": "04 76 53 53 32",
+    "adresse": "40 quai de France, Grenoble",
+    "notes": "Ne pose pas d'orthèses",
+    "liens": []
+  },
+  {
+    "id": "p_seed_003",
+    "nom": "CASAGRANDE Marie",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste, Gemmsor",
+    "territoire": "Grenoble",
+    "telephone": "04 38 12 09 14",
+    "adresse": "33 rue A. Rivoire, Grenoble",
+    "notes": "Email : marie.casagrande@orange.fr",
+    "liens": []
+  },
+  {
+    "id": "p_seed_004",
+    "nom": "CROMA - NECHITA Mona-Lisa, THOMAS Dominique",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste",
+    "territoire": "Grenoble",
+    "telephone": "04 76 44 22 35",
+    "adresse": "1 boulevard Clémenceau, Grenoble",
+    "notes": "Email : kine38main@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_seed_005",
+    "nom": "Essentiel Kiné - COTTRANT Armelle, THOUVENIN Julie",
+    "specialite": "Kinésithérapeute – DIU main, Gemmsor",
+    "territoire": "Grenoble",
+    "telephone": "06 24 34 27 87 / 09 72 80 92 43",
+    "adresse": "25 rue Honoré de Balzac, Grenoble",
+    "notes": "Site : www.essentielkine.com",
+    "liens": []
+  },
+  {
+    "id": "p_seed_006",
+    "nom": "DA LAGE Julie",
+    "specialite": "Orthésiste",
+    "territoire": "Grenoble",
+    "telephone": "06 58 98 07 82",
+    "adresse": "25 rue Honoré de Balzac, Grenoble",
+    "notes": "Orthésiste au sein du cabinet Essentiel Kiné - Email : julie.dalage@cabinet-hope.fr",
+    "liens": []
+  },
+  {
+    "id": "p_seed_007",
+    "nom": "GACHOT Olivier",
+    "specialite": "Kinésithérapeute – DIU main",
+    "territoire": "Grenoble",
+    "telephone": "04 76 17 08 14",
+    "adresse": "28 cours Jean Jaurès, Grenoble",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_008",
+    "nom": "KOMPIL - VIGNAUD Stéphane, BEGUE Caroline, TOUSSAINT Agnès",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste, Gemmsor",
+    "territoire": "Grenoble",
+    "telephone": "06 63 73 19 98 / 09 77 99 45 52",
+    "adresse": "14 rue de Nantes, Grenoble",
+    "notes": "Email : 38kompil@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_seed_009",
+    "nom": "GERLAC Denis",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste, Gemmsor",
+    "territoire": "Échirolles",
+    "telephone": "04 76 45 58 75",
+    "adresse": "5 allée du Docteur Calmette, Échirolles",
+    "notes": "Email : denis.gerlac@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_seed_010",
+    "nom": "ANIEL Julien",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste",
+    "territoire": "Échirolles",
+    "telephone": "04 56 58 14 50 / 06 72 87 57 74",
+    "adresse": "Cèdres Reed, 48 avenue de Grugliasco, Échirolles",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_011",
+    "nom": "GIRAUD",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Fontanil-Cornillon",
+    "telephone": "04 76 75 85 75",
+    "adresse": "14 rue des Jardins de Marquetière, 38120 Fontanil-Cornillon",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_012",
+    "nom": "BUTTIN",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Fontaine",
+    "telephone": "04 76 27 04 39 / 06 76 04 24 30",
+    "adresse": "77 boulevard Joliot-Curie, 38600 Fontaine",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_013",
+    "nom": "FRAISIER",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste, Gemmsor",
+    "territoire": "Saint-Égrève",
+    "telephone": "04 76 75 47 24 / 06 16 82 30 68",
+    "adresse": "28 rue du Drac, Saint-Égrève",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_014",
+    "nom": "LOUBIÈRE David",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Saint-Martin-d'Hères",
+    "telephone": "06 87 23 21 45",
+    "adresse": "8 rue du Docteur Fayollat, Saint-Martin-d'Hères",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_015",
+    "nom": "FIVEL MURAZ Isabelle",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Allevard-les-Bains",
+    "telephone": "04 76 97 54 54",
+    "adresse": "2 rue Emma Barroz, 38580 Allevard-les-Bains",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_016",
+    "nom": "MUYL",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Bernin",
+    "telephone": "04 76 08 92 21",
+    "adresse": "231 route Départementale 1090, 38190 Bernin",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_017",
+    "nom": "BOUALI",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste",
+    "territoire": "Brignoud",
+    "telephone": "04 76 45 64 40",
+    "adresse": "19 rue de Stalingrad, Brignoud",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_018",
+    "nom": "KOM Crolles - PROVOST Guillaume, DE GROOT Philippe",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste, Gemmsor",
+    "territoire": "Crolles",
+    "telephone": "07 60 81 60 92",
+    "adresse": "209 rue des Sources, 38920 Crolles",
+    "notes": "Email : kom.crolles@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_seed_019",
+    "nom": "GUIOT Vinciane",
+    "specialite": "Kinésithérapeute – Rééducation des musiciens",
+    "territoire": "Goncelin",
+    "telephone": "06 70 60 51 20",
+    "adresse": "15 ZA La Chandelière, 38570 Goncelin",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_020",
+    "nom": "DE MONTETY Claire",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Pontcharra",
+    "telephone": "04 76 97 14 95",
+    "adresse": "Bâtiment C, 100 avenue du Granier, Pontcharra",
+    "notes": "Email : clairki38@orange.fr",
+    "liens": []
+  },
+  {
+    "id": "p_seed_021",
+    "nom": "MARTIN-COCHER Benoit",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste, Gemmsor",
+    "territoire": "Saint-Ismier",
+    "telephone": "04 76 77 33 17 / 06 08 23 29 92",
+    "adresse": "56 route du Rivet, 38330 Saint-Ismier",
+    "notes": "Email : benoitmartin_cocher@yahoo.fr",
+    "liens": []
+  },
+  {
+    "id": "p_seed_022",
+    "nom": "BLAZE Isabelle",
+    "specialite": "Kinésithérapeute",
+    "territoire": "La Terrasse",
+    "telephone": "06 84 12 86 56",
+    "adresse": "79 impasse Meyarie, 38660 La Terrasse",
+    "notes": "Consultations à domicile uniquement",
+    "liens": []
+  },
+  {
+    "id": "p_seed_023",
+    "nom": "GONNET Anthony",
+    "specialite": "Kinésithérapeute",
+    "territoire": "La Terrasse",
+    "telephone": "06 52 24 36 25",
+    "adresse": "31 impasse du Buis, 38660 La Terrasse",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_024",
+    "nom": "ANSELMINO Laurianne",
+    "specialite": "Kinésithérapeute – DIU main, Gemmsor",
+    "territoire": "Biol",
+    "telephone": "04 74 92 32 05",
+    "adresse": "1 chemin de l'Usine, 38690 Biol",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_025",
+    "nom": "RUBINI Pierre",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Izeaux",
+    "telephone": "04 76 35 95 95 / 06 30 20 95 90",
+    "adresse": "SCM Liberté, 6 place Liberté, Izeaux",
+    "notes": "Se déplace à domicile",
+    "liens": []
+  },
+  {
+    "id": "p_seed_026",
+    "nom": "BRUNAT Lionel",
+    "specialite": "Kinésithérapeute – membre supérieur, épaule",
+    "territoire": "La Côte-Saint-André",
+    "telephone": "04 74 20 41 00",
+    "adresse": "Résidence du Musée, rue de la Charité, La Côte-Saint-André",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_027",
+    "nom": "THOLLOT Karine, ODIN Alice",
+    "specialite": "Kinésithérapeute – DIU main, Gemmsor",
+    "territoire": "Moirans",
+    "telephone": "04 76 05 97 10",
+    "adresse": "Maison de santé pluriprofessionnelle, 84 esplanade Jacques Barfety, 38430 Moirans",
+    "notes": "Email : karinethollot@hotmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_seed_028",
+    "nom": "TORELLI Cécile",
+    "specialite": "Kinésithérapeute – DIU main, Gemmsor",
+    "territoire": "Moirans",
+    "telephone": "06 43 09 69 82",
+    "adresse": "3 rue des Frères Bickert, Moirans",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_029",
+    "nom": "ISARD BIZZINI Soline",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Quaix-en-Chartreuse",
+    "telephone": "04 76 56 90 19",
+    "adresse": "12 place Victor Jaillet, 38950 Quaix-en-Chartreuse",
+    "notes": "Email : soline.bizzini@orange.fr",
+    "liens": []
+  },
+  {
+    "id": "p_seed_030",
+    "nom": "ESTIEUX Alexandre",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Saint-Étienne-de-Crossey",
+    "telephone": "04 76 55 33 27",
+    "adresse": "Centre médical Les Platanes, 307 rue du Tram, Saint-Étienne-de-Crossey",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_031",
+    "nom": "RIVAT Gabin, BORHI Emilie",
+    "specialite": "Kinésithérapeute – DIU main",
+    "territoire": "Saint-Marcellin",
+    "telephone": "04 76 38 79 20",
+    "adresse": "Maison médicale, 28 rue Jean Rony, Saint-Marcellin",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_032",
+    "nom": "ROUVIÈRE Jean-Baptiste",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Saint-Siméon-de-Bressieux",
+    "telephone": "04 74 20 92 86",
+    "adresse": "17 place de la Halle, Saint-Siméon-de-Bressieux",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_033",
+    "nom": "ARGENTERO",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste",
+    "territoire": "Villefontaine",
+    "telephone": "04 74 96 50 50",
+    "adresse": "Maison de santé Dauphiné, Villefontaine",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_034",
+    "nom": "PERRET Alexandra, LAROCHEVIEUX Aurélie, BONNAFOND Laurie, MONGELLAZ Stéphanie",
+    "specialite": "Kinésithérapeute – DIU main, Orthésiste, Gemmsor",
+    "territoire": "Voiron",
+    "telephone": "04 76 35 90 03",
+    "adresse": "31 bis avenue du 8 Mai 1945, 38500 Voiron",
+    "notes": "Email : centre.epaulemain@bbox.fr",
+    "liens": []
+  },
+  {
+    "id": "p_seed_035",
+    "nom": "BASSALER Mathilde",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Champ-sur-Drac",
+    "telephone": "04 76 68 79 82",
+    "adresse": "39 rue Louis Colmard, Champ-sur-Drac",
+    "notes": "Email : kinesitherapeute.bassaler@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_seed_036",
+    "nom": "HAMADÈNE Naomie",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Jarrie",
+    "telephone": "07 69 01 52 65",
+    "adresse": "1276 route du Général de Gaulle, Jarrie",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_037",
+    "nom": "THORET Alban",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Lans-en-Vercors",
+    "telephone": "06 85 28 26 67",
+    "adresse": "85 route de Grenoble, Lans-en-Vercors",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_038",
+    "nom": "THOUVENIN Julie",
+    "specialite": "Kinésithérapeute – DIU main, Gemmsor",
+    "territoire": "Bourg-d'Oisans",
+    "telephone": "06 24 34 27 87",
+    "adresse": "",
+    "notes": "Consultations à domicile uniquement",
+    "liens": []
+  },
+  {
+    "id": "p_seed_039",
+    "nom": "THÉBAUD Jérémiy",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Saint-Jean-en-Royans",
+    "telephone": "06 31 21 94 85",
+    "adresse": "",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_040",
+    "nom": "NOCEDA Fabien",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Saint-Georges-de-Commiers",
+    "telephone": "06 99 91 42 58",
+    "adresse": "35 rue des Côtes de Glaises, Saint-Georges-de-Commiers",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_041",
+    "nom": "REPELIN",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Varces",
+    "telephone": "04 76 72 82 12",
+    "adresse": "1 bis rue L. Lagrange, Varces",
+    "notes": "Email : valerierodet@free.fr",
+    "liens": []
+  },
+  {
+    "id": "p_seed_042",
+    "nom": "CHEVAUX",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Vif",
+    "telephone": "04 76 72 52 72",
+    "adresse": "7 rue J. Lestellet, Vif",
+    "notes": "Email : echevaux@wanadoo.fr",
+    "liens": []
+  },
+  {
+    "id": "p_seed_043",
+    "nom": "STURIALE Justine",
+    "specialite": "Kinésithérapeute – DIU main, Gemmsor",
+    "territoire": "Vif",
+    "telephone": "07 86 84 45 91",
+    "adresse": "38 avenue Champollion, Vif",
+    "notes": "Email : justinesturiale@gmail.com",
+    "liens": []
+  },
+  {
+    "id": "p_seed_044",
+    "nom": "Aqua Alpes Santé",
+    "specialite": "Kinésithérapeute – aquathérapie",
+    "territoire": "Vizille",
+    "telephone": "04 76 68 29 94",
+    "adresse": "75 rue Terrasse, Vizille",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_045",
+    "nom": "HELME",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Vizille",
+    "telephone": "04 76 68 14 90",
+    "adresse": "7 place du Centenaire, Vizille",
+    "notes": "",
+    "liens": []
+  },
+  {
+    "id": "p_seed_046",
+    "nom": "PONOT Barbara",
+    "specialite": "Kinésithérapeute",
+    "territoire": "Vizille",
+    "telephone": "04 76 71 39 73",
+    "adresse": "290 rue du 8 Mai 1945, Vizille",
+    "notes": "Email : barbaraponot@gmail.com",
+    "liens": []
+  }
+]
