@@ -400,6 +400,11 @@
     padding:26px;
     box-shadow:0 20px 60px rgba(0,0,0,0.25);
   }
+  .modal.modal-video{max-width:720px; padding:18px;}
+  .modal-video video{
+    display:block; width:100%; border-radius:10px; background:#000;
+  }
+  .modal-video h2{padding:0 6px;}
   .modal h2{font-size:20px; margin:0 0 4px;}
   .modal .modal-sub{color:var(--ink-soft); font-size:13.5px; margin:0 0 18px;}
   .field{margin-bottom:14px;}
@@ -521,10 +526,10 @@
 </header>
 
 <div class="action-banner no-print">
-  <a class="banner-btn" href="https://youtu.be/zWSFGtse1yg" target="_blank" rel="noopener">
+  <button class="banner-btn" id="btn-video" type="button">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M10 8.5v7l6-3.5-6-3.5Z" fill="currentColor" stroke="none"/></svg>
     Vidéo réfection tuile dorsale mallet finger
-  </a>
+  </button>
   <button class="banner-btn" id="btn-share" type="button">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="9" width="6" height="10" rx="1"/><path d="M9 12h6M9 16h4"/><rect x="3" y="3" width="18" height="4" rx="1"/></svg>
     QR code
@@ -594,6 +599,19 @@
     <div class="modal-actions">
       <button class="btn-text" id="share-close" type="button">Fermer</button>
       <button class="btn-primary" id="btn-print" type="button">Imprimer</button>
+    </div>
+  </div>
+</div>
+
+<div class="overlay" id="overlay-video">
+  <div class="modal modal-video">
+    <h2>Vidéo — Réfection tuile dorsale mallet finger</h2>
+    <video id="video-player" controls preload="metadata" playsinline>
+      <source src="media/video-tuile-dorsale.mp4" type="video/mp4">
+      Votre navigateur ne prend pas en charge la lecture vidéo intégrée.
+    </video>
+    <div class="modal-actions">
+      <button class="btn-text" id="video-close" type="button">Fermer</button>
     </div>
   </div>
 </div>
@@ -1132,6 +1150,9 @@
   });
   $('btn-print').addEventListener('click', ()=>{ $('overlay-share').classList.remove('show'); setTimeout(()=>window.print(), 150); });
 
+  $('btn-video').addEventListener('click', ()=>$('overlay-video').classList.add('show'));
+  $('video-close').addEventListener('click', ()=>{ $('overlay-video').classList.remove('show'); $('video-player').pause(); });
+
   $('btn-add').addEventListener('click', ()=>openEdit(null));
   $('edit-cancel').addEventListener('click', ()=>$('overlay-edit').classList.remove('show'));
   $('edit-save').addEventListener('click', saveEdit);
@@ -1146,10 +1167,10 @@
   $('territory-filter').addEventListener('change', render);
 
   document.querySelectorAll('.overlay').forEach(ov=>{
-    ov.addEventListener('click', e=>{ if(e.target===ov) ov.classList.remove('show'); });
+    ov.addEventListener('click', e=>{ if(e.target===ov){ ov.classList.remove('show'); if(ov.id==='overlay-video') $('video-player').pause(); } });
   });
   document.addEventListener('keydown', e=>{
-    if(e.key==='Escape'){ document.querySelectorAll('.overlay.show').forEach(ov=>ov.classList.remove('show')); }
+    if(e.key==='Escape'){ document.querySelectorAll('.overlay.show').forEach(ov=>ov.classList.remove('show')); $('video-player').pause(); }
   });
 
   detectShareUrl();
